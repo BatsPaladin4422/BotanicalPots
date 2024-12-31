@@ -1,0 +1,35 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        " B ",
+        "BXB",
+        " B "
+    ],
+    "key": {
+        "B": {
+            "item": "minecraft:brick"
+        },
+        "X": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "category": "misc",
+    "group": "pot_upgrade",
+    "result": {
+        "id": "minecraft:scrape_pottery_sherd",
+        "components": {
+            "item_name": "{\"text\": \"Timber Upgrade\"}",
+            "rarity": "common",
+            "lore": [
+                "{\"text\": \"The potted plant produces\", \"color\": \"gray\", \"italic\": false}",
+                "{\"text\": \"wood instead of logs.\", \"color\": \"gray\", \"italic\": false}",
+                "{\"text\": \"\"}",
+                "{\"text\": \"Botanical Pots\", \"color\": \"blue\", \"italic\": false}"
+            ],
+            "max_stack_size": 16,
+            "minecraft:custom_data": {
+                "upgrade": "timber"
+            }
+        }
+    }
+}

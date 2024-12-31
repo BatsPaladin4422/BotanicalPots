@@ -1,0 +1,172 @@
+{
+    "type": "block",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:charcoal",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "nbt": "{data: { upgrade: \"flaming\" }}"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:oak_wood",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "nbt": "{data: { upgrade: \"timber\" }}"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:oak_log"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:azalea_leaves",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "nbt": "{data: { upgrade: \"photosynthesis\" }}"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:empty"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:azalea",
+                    "weight": 49
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:azalea",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "type": "minecraft:group",
+                            "children": [
+                                {
+                                    "type": "item",
+                                    "name": "minecraft:moss_block",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": {
+                                                "type": "uniform",
+                                                "min": 1,
+                                                "max": 2
+                                            },
+                                            "add": false
+                                        }
+                                    ],
+                                    "weight": 5
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "minecraft:spore_blossom",
+                                    "weight": 5
+                                },
+                                {
+                                    "type": "empty",
+                                    "weight": 90
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "nbt": "{data: { upgrade: \"plentiful\" }}"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:group",
+                            "children": [
+                                {
+                                    "type": "item",
+                                    "name": "minecraft:moss_block",
+                                    "functions": [
+                                        {
+                                            "function": "set_count",
+                                            "count": {
+                                                "type": "uniform",
+                                                "min": 1,
+                                                "max": 2
+                                            },
+                                            "add": false
+                                        }
+                                    ],
+                                    "weight": 5
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "minecraft:spore_blossom",
+                                    "weight": 5
+                                },
+                                {
+                                    "type": "empty",
+                                    "weight": 190
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "random_sequence": "pots:botanical_pot/azalea"
+}

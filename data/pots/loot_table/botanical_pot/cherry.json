@@ -1,0 +1,250 @@
+{
+    "type": "block",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:charcoal",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "nbt": "{data: { upgrade: \"flaming\" }}"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:cherry_wood",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "nbt": "{data: { upgrade: \"timber\" }}"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:cherry_log"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:cherry_leaves",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "nbt": "{data: { upgrade: \"photosynthesis\" }}"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:empty"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:cherry_sapling",
+                    "weight": 49
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cherry_sapling",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "type": "minecraft:group",
+                            "children": [
+                                {
+                                    "type": "item",
+                                    "name": "minecraft:dandelion",
+                                    "weight": 1
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "minecraft:poppy",
+                                    "weight": 1
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "minecraft:cornflower",
+                                    "weight": 1
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "minecraft:oxeye_daisy",
+                                    "weight": 1
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "minecraft:lily_of_the_valley",
+                                    "weight": 1
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "minecraft:white_tulip",
+                                    "weight": 1
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "minecraft:orange_tulip",
+                                    "weight": 1
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "minecraft:red_tulip",
+                                    "weight": 1
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "minecraft:pink_tulip",
+                                    "weight": 1
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "minecraft:allium",
+                                    "weight": 1
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "minecraft:blue_orchid",
+                                    "weight": 1
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "minecraft:azure_bluet",
+                                    "weight": 1
+                                },
+                                {
+                                    "type": "empty",
+                                    "weight": 108
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "nbt": "{data: { upgrade: \"plentiful\" }}"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:group",
+                            "children": [
+                                {
+                                    "type": "item",
+                                    "name": "minecraft:dandelion",
+                                    "weight": 1
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "minecraft:poppy",
+                                    "weight": 1
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "minecraft:cornflower",
+                                    "weight": 1
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "minecraft:oxeye_daisy",
+                                    "weight": 1
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "minecraft:lily_of_the_valley",
+                                    "weight": 1
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "minecraft:white_tulip",
+                                    "weight": 1
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "minecraft:orange_tulip",
+                                    "weight": 1
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "minecraft:red_tulip",
+                                    "weight": 1
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "minecraft:pink_tulip",
+                                    "weight": 1
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "minecraft:allium",
+                                    "weight": 1
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "minecraft:blue_orchid",
+                                    "weight": 1
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "minecraft:azure_bluet",
+                                    "weight": 1
+                                },
+                                {
+                                    "type": "empty",
+                                    "weight": 228
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "random_sequence": "pots:botanical_pot/cherry"
+}

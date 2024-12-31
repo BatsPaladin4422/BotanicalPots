@@ -1,0 +1,35 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        " B ",
+        "BXB",
+        " B "
+    ],
+    "key": {
+        "B": {
+            "item": "minecraft:brick"
+        },
+        "X": {
+            "item": "minecraft:bone_meal"
+        }
+    },
+    "category": "misc",
+    "group": "pot_upgrade",
+    "result": {
+        "id": "minecraft:sheaf_pottery_sherd",
+        "components": {
+            "item_name": "{\"text\": \"Rich Soil Upgrade\"}",
+            "rarity": "common",
+            "lore": [
+                "{\"text\": \"Allows you to grow other\", \"color\": \"gray\", \"italic\": false}",
+                "{\"text\": \"plants in the pot.\", \"color\": \"gray\", \"italic\": false}",
+                "{\"text\": \"\"}",
+                "{\"text\": \"Botanical Pots\", \"color\": \"blue\", \"italic\": false}"
+            ],
+            "max_stack_size": 16,
+            "minecraft:custom_data": {
+                "upgrade": "rich_soil"
+            }
+        }
+    }
+}

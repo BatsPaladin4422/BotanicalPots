@@ -1,0 +1,36 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        " T ",
+        "TBT",
+        " T "
+    ],
+    "key": {
+        "T": {
+            "tag": "pots:treats"
+        },
+        "B": {
+            "item": "minecraft:brick"
+        }
+    },
+    "category": "misc",
+    "group": "pot_upgrade",
+    "result": {
+        "id": "minecraft:explorer_pottery_sherd",
+        "components": {
+            "item_name": "{\"text\": \"Climate Upgrade\"}",
+            "rarity": "rare",
+            "lore": [
+                "{\"text\": \"The potted plant grows 3x as fast,\", \"color\": \"gray\", \"italic\": false}",
+                "{\"text\": \"if the biome the pot is located in\", \"color\": \"gray\", \"italic\": false}",
+                "{\"text\": \"is a suiting one for the plant.\", \"color\": \"gray\", \"italic\": false}",
+                "{\"text\": \"\"}",
+                "{\"text\": \"Botanical Pots\", \"color\": \"blue\", \"italic\": false}"
+            ],
+            "max_stack_size": 16,
+            "minecraft:custom_data": {
+                "upgrade": "climate"
+            }
+        }
+    }
+}
