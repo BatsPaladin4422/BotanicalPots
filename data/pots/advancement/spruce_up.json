@@ -1,0 +1,16 @@
+{
+    "display": {
+        "title": "Spruce-Up",
+        "description": "§7Grow a §fSpruce Sapling §7in an §fupgraded §7pot on §fY > 255§7.\n\n§8Only triggers if you're nearby.",
+        "icon": {
+            "id": "minecraft:spruce_sapling",
+            "count": 1
+        }
+    },
+    "criteria": {
+        "condition": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "pots:upgrade"
+}

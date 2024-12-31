@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Superlative",
+        "description": "§7Use an §fupgrade §7on a §fBotanical Pot§7.",
+        "frame": "goal",
+        "icon": {
+            "id": "minecraft:sheaf_pottery_sherd",
+            "count": 1
+        }
+    },
+    "criteria": {
+        "condition": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "pots:root"
+}

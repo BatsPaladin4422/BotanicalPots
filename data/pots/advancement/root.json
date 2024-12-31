@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": "Botanical Pots",
+        "description": "§7Get your hands on a §fBotanical Pot§7.",
+        "background": "minecraft:textures/block/packed_mud.png",
+        "icon": {
+            "id": "minecraft:flower_pot",
+            "count": 1
+        }
+    },
+    "criteria": {
+        "condition": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "pots:climate_upgrade",
+            "pots:flaming_upgrade",
+            "pots:photosynthesis_upgrade",
+            "pots:plentiful_upgrade",
+            "pots:rich_soil_upgrade",
+            "pots:shattered_upgrade",
+            "pots:sprout_upgrade",
+            "pots:timber_upgrade"
+        ]
+    }
+}

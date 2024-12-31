@@ -1,0 +1,15 @@
+{
+    "display": {
+        "title": "It's Time to Grow Up",
+        "description": "§7It's time to get §ffast§7! Grow §ftwo saplings §7in a §fsingle pot §7in less than §fhalf a minute§7.\n\n§8Only triggers if you're nearby.",
+        "icon": {
+            "id": "minecraft:clock"
+        }
+    },
+    "criteria": {
+        "condition": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "pots:root"
+}

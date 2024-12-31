@@ -13,4 +13,5 @@ $execute align xyz positioned ~.5 ~.5 ~.5 as @e[tag=BotanicalPotUpgrade, type=it
     merge entity @s { item: { id: "minecraft:$(sherd)_pottery_sherd" }, transformation: { scale: [0.428f, 0.428f, 0.428f] } }
 execute align xyz positioned ~.5 ~.5 ~.5 run playsound block.decorated_pot.break player @a ~ ~ ~
 execute align xyz positioned ~.5 ~.5 ~.5 run particle item{item:"angler_pottery_sherd"} ~ ~ ~ 0.2 0.2 0.2 0 10 normal
+advancement grant @s only pots:upgrade
 item modify entity @s weapon.mainhand pots:decrement_player

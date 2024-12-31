@@ -15,4 +15,6 @@ execute align xyz run summon minecraft:block_display ~.5 ~ ~.5 {Tags: ["Botanica
         {item: {count: 1, id: "minecraft:barrier"}, Tags:["BotanicalPotDeco", "BotanicalPotUpgrade"], id: "minecraft:item_display", transformation: {left_rotation: [0.0f, 0.7071068f, 0.0f, 0.7071068f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [0.0f, 0.0f, 0.0f], translation: [-0.2625f, 0.1875f, 0f]}}, \
         {item: {count: 1, id: "minecraft:barrier"}, Tags:["BotanicalPotDeco", "BotanicalPotUpgrade"], id: "minecraft:item_display", transformation: {left_rotation: [0.0f, -0.7071068f, 0.0f, 0.7071068f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [0.0f, 0.0f, 0.0f], translation: [0.2625f, 0.1875f, 0f]}} \
     ], block_state: {Name: "minecraft:air"}}
+    
+advancement grant @s only pots:root
 item modify entity @s weapon.mainhand pots:decrement_player
