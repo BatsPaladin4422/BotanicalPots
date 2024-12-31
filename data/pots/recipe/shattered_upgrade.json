@@ -6,12 +6,8 @@
         " B "
     ],
     "key": {
-        "B": {
-            "item": "minecraft:brick"
-        },
-        "X": {
-            "item": "minecraft:dirt"
-        }
+        "B": "minecraft:brick",
+        "X": "minecraft:dirt"
     },
     "category": "misc",
     "group": "pot_upgrade",

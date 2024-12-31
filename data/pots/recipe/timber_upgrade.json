@@ -6,12 +6,8 @@
         " B "
     ],
     "key": {
-        "B": {
-            "item": "minecraft:brick"
-        },
-        "X": {
-            "item": "minecraft:iron_ingot"
-        }
+        "B": "minecraft:brick",
+        "X": "minecraft:iron_ingot"
     },
     "category": "misc",
     "group": "pot_upgrade",

@@ -6,12 +6,8 @@
         " B "
     ],
     "key": {
-        "B": {
-            "item": "minecraft:brick"
-        },
-        "X": {
-            "item": "minecraft:water_bucket"
-        }
+        "B": "minecraft:brick",
+        "X": "minecraft:water_bucket"
     },
     "category": "misc",
     "group": "pot_upgrade",

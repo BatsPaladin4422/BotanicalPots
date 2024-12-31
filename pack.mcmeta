@@ -1,6 +1,7 @@
 {
     "pack": {
-        "description": "I am a §lgrunt§r.\n§8V1.5 | §8@Manchick_",
-        "pack_format": 48
+        "description": "I am a §lgrunt§r.\n§8V1.6 | §8@Manchick_",
+        "pack_format": 57,
+        "supported_formats": [57, 61]
     }
 }

@@ -6,12 +6,8 @@
         " B "
     ],
     "key": {
-        "B": {
-            "item": "minecraft:brick"
-        },
-        "X": {
-            "item": "minecraft:bone_meal"
-        }
+        "B": "minecraft:brick",
+        "X": "minecraft:bone_meal"
     },
     "category": "misc",
     "group": "pot_upgrade",

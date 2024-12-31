@@ -6,12 +6,8 @@
         " B "
     ],
     "key": {
-        "B": {
-            "item": "minecraft:nether_brick"
-        },
-        "X": {
-            "item": "minecraft:lava_bucket"
-        }
+        "B": "minecraft:nether_brick",
+        "X": "minecraft:lava_bucket"
     },
     "category": "misc",
     "group": "pot_upgrade",

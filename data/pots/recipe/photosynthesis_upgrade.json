@@ -6,15 +6,9 @@
         " G "
     ],
     "key": {
-        "B": {
-            "item": "minecraft:brick"
-        },
-        "G": {
-            "tag": "pots:glass"
-        },
-        "X": {
-            "tag": "minecraft:leaves"
-        }
+        "B": "minecraft:brick",
+        "G": "#pots:glass",
+        "X": "#minecraft:leaves"
     },
     "category": "misc",
     "group": "pot_upgrade",
