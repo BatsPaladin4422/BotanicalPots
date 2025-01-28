@@ -1,2 +1,0 @@
-execute if block ~ ~ ~ flower_pot if entity @e[type=marker, tag=BotanicalPot, distance=..0.866, nbt=!{ data: { upgrade: "none" } }] run return run function pots:trace/upgrade/removal/remove
-execute positioned ^ ^ ^0.1 if entity @s[distance=..5] run function pots:trace/upgrade/removal/trace

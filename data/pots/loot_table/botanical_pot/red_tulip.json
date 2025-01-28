@@ -13,7 +13,7 @@
                             "count": {
                                 "type": "uniform",
                                 "min": 2,
-                                "max": 4
+                                "max": 3
                             },
                             "add": false
                         }

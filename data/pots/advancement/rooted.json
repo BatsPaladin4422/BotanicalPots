@@ -1,0 +1,15 @@
+{
+    "display": {
+        "title": "Rooted-Down",
+        "description": "§7Grow §fa plant §7in a pot §7in over §fan hour§7.\n\n§8Only triggers if you're nearby.",
+        "icon": {
+            "id": "minecraft:rooted_dirt"
+        }
+    },
+    "criteria": {
+        "condition": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "pots:root"
+}

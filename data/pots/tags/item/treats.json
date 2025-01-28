@@ -1,32 +1,20 @@
 {
     "values": [
         "minecraft:armadillo_scute",
-        "minecraft:allium",
         "minecraft:moss_block",
         "minecraft:spore_blossom",
-        "minecraft:azure_bluet",
         "minecraft:vine",
         "minecraft:honeycomb",
-        "minecraft:blue_orchid",
         "minecraft:hanging_roots",
         "minecraft:dead_bush",
-        "minecraft:cornflower",
-        "minecraft:nether_wart",
-        "minecraft:dandelion",
+        "minecraft:shroomlight",
         "minecraft:brown_mushroom",
         "minecraft:red_mushroom",
         "minecraft:cocoa_beans",
-        "minecraft:lily_of_the_valley",
         "minecraft:lily_pad",
         "minecraft:apple",
-        "minecraft:orange_tulip",
-        "minecraft:oxeye_daisy",
-        "minecraft:pink_tulip",
-        "minecraft:poppy",
-        "minecraft:red_tulip",
         "minecraft:sweet_berries",
         "minecraft:twisting_vines",
-        "minecraft:weeping_vines",
-        "minecraft:white_tulip"
+        "minecraft:weeping_vines"
     ]
 }
