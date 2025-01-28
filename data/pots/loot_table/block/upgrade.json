@@ -8,21 +8,33 @@
                     "children": [
                         {
                             "type": "minecraft:item",
-                            "name": "minecraft:flow_pottery_sherd",
+                            "name": "minecraft:brewer_pottery_sherd",
                             "conditions": [
                                 {
-                                    "condition": "minecraft:entity_properties",
-                                    "entity": "this",
-                                    "predicate": {
-                                        "nbt": "{data: { upgrade: \"sprout\" }}"
-                                    }
+                                    "condition": "minecraft:any_of",
+                                    "terms": [
+                                        {
+                                            "condition": "minecraft:entity_properties",
+                                            "entity": "this",
+                                            "predicate": {
+                                                "nbt": "{data: { upgrade: \"watering\" }}"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:entity_properties",
+                                            "entity": "this",
+                                            "predicate": {
+                                                "nbt": "{data: { upgrade: \"sprout\" }}"
+                                            }
+                                        }
+                                    ]
                                 }
                             ],
                             "functions": [
                                 {
                                     "function": "minecraft:set_components",
                                     "components": {
-                                        "item_name": "{\"text\": \"Sprout Upgrade\"}",
+                                        "item_name": "{\"text\": \"Watering Upgrade\"}",
                                         "rarity": "common",
                                         "lore": [
                                             "{\"text\": \"Decreases the time it takes\", \"color\": \"gray\", \"italic\": false}",
@@ -32,7 +44,7 @@
                                         ],
                                         "max_stack_size": 16,
                                         "minecraft:custom_data": {
-                                            "upgrade": "sprout"
+                                            "upgrade": "watering"
                                         }
                                     }
                                 }

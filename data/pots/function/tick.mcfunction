@@ -10,8 +10,4 @@ execute as @e[tag=BotanicalPot, type=marker] at @s unless block ~ ~ ~ #flower_po
 execute as @e[tag=BotanicalPot, type=marker] at @s unless block ~ ~ ~ #flower_pots run kill @s
 execute as @e[tag=BotanicalPot, type=marker] at @s if block ~ ~ ~ flower_pot run function pots:hopper/check
 
-scoreboard players remove @e[tag=BotanicalPot, type=minecraft:marker, scores={tickDelta=1..}] tickDelta 1
-
-execute store result score RTS var run gamerule randomTickSpeed
-execute if score RTS var matches 0 run return 0
 execute as @e[tag=BotanicalPot, type=minecraft:marker] at @s if block ~ ~ ~ #pots:botanical_pots at @s run function pots:core/tick

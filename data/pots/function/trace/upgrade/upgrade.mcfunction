@@ -1,9 +1,3 @@
-## Upgrade
-## @macro
-## 
-## @param upgrade the upgrade to apply.
-## @param sherd the sherd to display.
-
 $execute align xyz positioned ~.5 ~.5 ~.5 as @e[type=marker, tag=BotanicalPot, distance=..0.866] \
     if entity @s[nbt={data:{upgrade:"$(upgrade)"}}] run return fail
 execute align xyz positioned ~.5 ~.5 ~.5 as @n[type=minecraft:marker, tag=BotanicalPot] \

@@ -1,0 +1,2 @@
+function pots:trace/start { condition: "if block ~ ~ ~ flower_pot unless entity @e[type=marker, tag=BotanicalPot, distance=..0.866]", onHit: "pots:trace/create/create" }
+advancement revoke @s only pots:trace/create

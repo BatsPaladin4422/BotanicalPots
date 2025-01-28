@@ -16,12 +16,7 @@
                 "player": {
                     "equipment": {
                         "mainhand": {
-                            "items": "minecraft:flow_pottery_sherd",
-                            "components": {
-                                "custom_data": {
-                                    "upgrade": "sprout"
-                                }
-                            }
+                            "items": "minecraft:bone_meal"
                         }
                     }
                 }
@@ -29,6 +24,6 @@
         }
     },
     "rewards": {
-        "function": "pots:trace/upgrade/sprout"
+        "function": "pots:trace/create/start"
     }
 }

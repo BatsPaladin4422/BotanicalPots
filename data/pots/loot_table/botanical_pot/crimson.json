@@ -10,6 +10,15 @@
                         {
                             "type": "minecraft:item",
                             "name": "minecraft:crimson_hyphae",
+                            "functions": [
+                                {
+                                    "function": "set_count",
+                                    "count": {
+                                        "min": 1,
+                                        "max": 2
+                                    }
+                                }
+                            ],
                             "conditions": [
                                 {
                                     "condition": "minecraft:entity_properties",
@@ -22,7 +31,16 @@
                         },
                         {
                             "type": "minecraft:item",
-                            "name": "minecraft:crimson_stem"
+                            "name": "minecraft:crimson_stem",
+                            "functions": [
+                                {
+                                    "function": "set_count",
+                                    "count": {
+                                        "min": 1,
+                                        "max": 2
+                                    }
+                                }
+                            ]
                         }
                     ]
                 }
@@ -37,6 +55,15 @@
                         {
                             "type": "minecraft:item",
                             "name": "minecraft:nether_wart_block",
+                            "functions": [
+                                {
+                                    "function": "set_count",
+                                    "count": {
+                                        "min": 1,
+                                        "max": 2
+                                    }
+                                }
+                            ],
                             "conditions": [
                                 {
                                     "condition": "minecraft:entity_properties",

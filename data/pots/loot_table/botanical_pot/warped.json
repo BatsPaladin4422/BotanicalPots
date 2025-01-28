@@ -10,6 +10,15 @@
                         {
                             "type": "minecraft:item",
                             "name": "minecraft:warped_hyphae",
+                            "functions": [
+                                {
+                                    "function": "set_count",
+                                    "count": {
+                                        "min": 1,
+                                        "max": 2
+                                    }
+                                }
+                            ],
                             "conditions": [
                                 {
                                     "condition": "minecraft:entity_properties",
@@ -22,7 +31,16 @@
                         },
                         {
                             "type": "minecraft:item",
-                            "name": "minecraft:warped_stem"
+                            "name": "minecraft:warped_stem",
+                            "functions": [
+                                {
+                                    "function": "set_count",
+                                    "count": {
+                                        "min": 1,
+                                        "max": 2
+                                    }
+                                }
+                            ]
                         }
                     ]
                 }
@@ -37,6 +55,15 @@
                         {
                             "type": "minecraft:item",
                             "name": "minecraft:warped_wart_block",
+                            "functions": [
+                                {
+                                    "function": "set_count",
+                                    "count": {
+                                        "min": 1,
+                                        "max": 2
+                                    }
+                                }
+                            ],
                             "conditions": [
                                 {
                                     "condition": "minecraft:entity_properties",
@@ -86,13 +113,8 @@
                             "children": [
                                 {
                                     "type": "item",
-                                    "name": "minecraft:weeping_vines",
-                                    "weight": 5
-                                },
-                                {
-                                    "type": "item",
-                                    "name": "minecraft:twisting_vines",
-                                    "weight": 5
+                                    "name": "minecraft:shroomlight",
+                                    "weight": 10
                                 },
                                 {
                                     "type": "empty",
@@ -114,17 +136,12 @@
                             "children": [
                                 {
                                     "type": "item",
-                                    "name": "minecraft:weeping_vines",
-                                    "weight": 5
-                                },
-                                {
-                                    "type": "item",
-                                    "name": "minecraft:twisting_vines",
+                                    "name": "minecraft:shroomlight",
                                     "weight": 5
                                 },
                                 {
                                     "type": "empty",
-                                    "weight": 190
+                                    "weight": 95
                                 }
                             ]
                         }

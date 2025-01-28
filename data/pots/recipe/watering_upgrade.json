@@ -12,9 +12,9 @@
     "category": "misc",
     "group": "pot_upgrade",
     "result": {
-        "id": "minecraft:flow_pottery_sherd",
+        "id": "minecraft:brewer_pottery_sherd",
         "components": {
-            "item_name": "{\"text\": \"Sprout Upgrade\"}",
+            "item_name": "{\"text\": \"Watering Upgrade\"}",
             "rarity": "common",
             "lore": [
                 "{\"text\": \"Decreases the time it takes\", \"color\": \"gray\", \"italic\": false}",
@@ -24,7 +24,7 @@
             ],
             "max_stack_size": 16,
             "minecraft:custom_data": {
-                "upgrade": "sprout"
+                "upgrade": "watering"
             }
         }
     }

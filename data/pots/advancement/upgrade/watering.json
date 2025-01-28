@@ -16,7 +16,12 @@
                 "player": {
                     "equipment": {
                         "mainhand": {
-                            "items": "minecraft:bone_meal"
+                            "items": "minecraft:brewer_pottery_sherd",
+                            "components": {
+                                "custom_data": {
+                                    "upgrade": "watering"
+                                }
+                            }
                         }
                     }
                 }
@@ -24,6 +29,6 @@
         }
     },
     "rewards": {
-        "function": "pots:trace/start"
+        "function": "pots:trace/upgrade/watering"
     }
 }

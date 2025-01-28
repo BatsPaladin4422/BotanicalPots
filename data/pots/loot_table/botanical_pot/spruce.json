@@ -10,6 +10,15 @@
                         {
                             "type": "minecraft:item",
                             "name": "minecraft:charcoal",
+                            "functions": [
+                                {
+                                    "function": "set_count",
+                                    "count": {
+                                        "min": 1,
+                                        "max": 2
+                                    }
+                                }
+                            ],
                             "conditions": [
                                 {
                                     "condition": "minecraft:entity_properties",
@@ -23,6 +32,15 @@
                         {
                             "type": "minecraft:item",
                             "name": "minecraft:spruce_wood",
+                            "functions": [
+                                {
+                                    "function": "set_count",
+                                    "count": {
+                                        "min": 1,
+                                        "max": 2
+                                    }
+                                }
+                            ],
                             "conditions": [
                                 {
                                     "condition": "minecraft:entity_properties",
@@ -35,7 +53,16 @@
                         },
                         {
                             "type": "minecraft:item",
-                            "name": "minecraft:spruce_log"
+                            "name": "minecraft:spruce_log",
+                            "functions": [
+                                {
+                                    "function": "set_count",
+                                    "count": {
+                                        "min": 1,
+                                        "max": 2
+                                    }
+                                }
+                            ]
                         }
                     ]
                 }
@@ -50,6 +77,15 @@
                         {
                             "type": "minecraft:item",
                             "name": "minecraft:spruce_leaves",
+                            "functions": [
+                                {
+                                    "function": "set_count",
+                                    "count": {
+                                        "min": 1,
+                                        "max": 2
+                                    }
+                                }
+                            ],
                             "conditions": [
                                 {
                                     "condition": "minecraft:entity_properties",
