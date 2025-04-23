@@ -1,21 +1,19 @@
 {
-    "type": "block",
+    "type": "minecraft:block",
     "pools": [
         {
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
-                    "name": "azure_bluet",
+                    "type": "minecraft:item",
+                    "name": "minecraft:azure_bluet",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
-                                "type": "uniform",
                                 "min": 2,
                                 "max": 3
-                            },
-                            "add": false
+                            }
                         }
                     ]
                 }

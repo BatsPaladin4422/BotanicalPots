@@ -1,34 +1,31 @@
 {
-    "criteria": {
-        "condition": {
-            "trigger": "minecraft:default_block_use",
-            "conditions": {
-                "location": [
-                    {
-                        "condition": "location_check",
-                        "predicate": {
-                            "block": {
-                                "blocks": "minecraft:flower_pot"
-                            }
-                        }
-                    }
-                ],
-                "player": {
-                    "equipment": {
-                        "mainhand": {
-                            "items": "minecraft:burn_pottery_sherd",
-                            "components": {
-                                "custom_data": {
-                                    "upgrade": "flaming"
-                                }
-                            }
-                        }
-                    }
-                }
+    "display": {
+        "title": "Hot Offer",
+        "description": "§7Obtain a §fFlaming §7upgrade §7through some §fpiglin barter§7.\n\n§8Drops only occasionally.",
+        "icon": {
+            "id": "minecraft:paper",
+            "count": 1,
+            "components": {
+                "minecraft:item_model": "pots:upgrade/flaming"
             }
         }
     },
-    "rewards": {
-        "function": "pots:trace/upgrade/flaming"
-    }
+    "criteria": {
+        "condition": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:paper",
+                        "components": {
+                            "custom_data": {
+                                "identifier": "pots:upgrade/flaming"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "pots:upgrade/root"
 }

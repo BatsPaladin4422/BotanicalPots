@@ -1,7 +1,7 @@
 {
     "display": {
         "title": "Come Along with Me",
-        "description": "§7Grow §fevery sapling §7in a §fsuiting biome§7 for that tree type using the §fClimate Upgrade§7.\n\n§8Only triggers if you're nearby.",
+        "description": "§7Grow §fevery sapling §7in a §fsuitable biome§7 for that type using the §fOvergrown Upgrade§7.\n\n§8Only triggers if you're nearby.",
         "frame": "challenge",
         "icon": {
             "id": "minecraft:map"
@@ -30,6 +30,9 @@
             "trigger": "minecraft:impossible"
         },
         "cherry": {
+            "trigger": "minecraft:impossible"
+        },
+        "pale_oak": {
             "trigger": "minecraft:impossible"
         },
         "azalea": {
@@ -75,10 +78,13 @@
         ],
         [
             "warped"
+        ],
+        [
+            "pale_oak"
         ]
     ],
     "rewards": {
         "experience": 200
     },
-    "parent": "pots:upgrade"
+    "parent": "pots:upgrade/overgrown"
 }

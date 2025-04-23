@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "equipment",
+    "ingredients": [
+        "minecraft:stick",
+        "#pots:glass"
+    ],
+    "result": {
+        "id": "minecraft:paper",
+        "components": {
+            "minecraft:item_name": "Magnifying Glass",
+            "max_stack_size": 1,
+            "lore": [
+                "§r§7Investigate plants by examining them",
+                "§r§7thoroughly, to learn about their §fSuitable",
+                "§r§fBiomes§7, §fSpeed Modifiers§7, and §fTreats.",
+                "",
+                "§r§7You've §frecently §7investigated:",
+                "",
+                "§r§8Nothing yet...",
+                "",
+                "§r§9Botanical Pots"
+            ],
+            "minecraft:item_model": "pots:magnifying_glass",
+            "minecraft:custom_data": {
+                "identifier": "pots:magnifying_glass"
+            },
+            "minecraft:consumable": {
+                "consume_seconds": 2147483647,
+                "animation": "block"
+            }
+        }
+    }
+}

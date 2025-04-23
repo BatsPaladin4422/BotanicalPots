@@ -1,0 +1,38 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": "Pot Upgrade",
+                                "minecraft:max_stack_size": 16,
+                                "minecraft:lore": [
+                                    "",
+                                    " §r§f§l⭐ §r§6Bountiful ",
+                                    "",
+                                    " §7The potted plant produces a ",
+                                    " §7treat twice as often.",
+                                    "",
+                                    " §8Right-click a §7Botanical Pot ",
+                                    " §8to apply.",
+                                    "",
+                                    "§r§9Botanical Pots "
+                                ],
+                                "minecraft:item_model": "pots:upgrade/bountiful",
+                                "minecraft:custom_data": {
+                                    "identifier": "pots:upgrade/bountiful"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

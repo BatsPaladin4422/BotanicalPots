@@ -1,28 +1,29 @@
 {
     "display": {
         "title": "Botanical Pots",
-        "description": "§7Get your hands on a §fBotanical Pot§7.",
-        "background": "minecraft:textures/block/packed_mud.png",
+        "description": "§7Room Plants for Dummies.",
+        "background": "minecraft:block/packed_mud",
+        "announce_to_chat": false,
+        "show_toast": false,
         "icon": {
-            "id": "minecraft:flower_pot",
-            "count": 1
+            "id": "minecraft:paper",
+            "count": 1,
+            "components": {
+                "item_model": "pots:botanical_pot/base"
+            }
         }
     },
     "criteria": {
         "condition": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:tick"
         }
     },
     "rewards": {
         "recipes": [
-            "pots:climate_upgrade",
-            "pots:flaming_upgrade",
-            "pots:photosynthesis_upgrade",
-            "pots:plentiful_upgrade",
-            "pots:rich_soil_upgrade",
-            "pots:shattered_upgrade",
-            "pots:watering_upgrade",
-            "pots:timber_upgrade"
+            "pots:magnifying_glass"
+        ],
+        "loot": [
+            "pots:definition/magnifying_glass"
         ]
     }
 }

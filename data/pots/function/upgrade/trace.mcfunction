@@ -1,0 +1,2 @@
+$execute $(body) run return run loot spawn $(position) loot pots:upgrade/$(upgrade)
+$execute positioned ^ ^ ^.1 if entity @s[distance=..5] run function pots:upgrade/trace { body: "$(body)", position: "$(position)", upgrade: "$(upgrade)" }

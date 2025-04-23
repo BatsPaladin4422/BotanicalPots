@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": "Bountiful Harvest",
+        "description": "§7Obtain a §fBountiful §7upgrade by trading with an §fapprentice mason§7.\n\n§8Only a 25% chance.",
+        "icon": {
+            "id": "minecraft:paper",
+            "count": 1,
+            "components": {
+                "minecraft:item_model": "pots:upgrade/bountiful"
+            }
+        }
+    },
+    "criteria": {
+        "condition": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:paper",
+                        "components": {
+                            "custom_data": {
+                                "identifier": "pots:upgrade/bountiful"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "pots:upgrade/rich_soil"
+}

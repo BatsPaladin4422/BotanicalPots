@@ -1,0 +1,39 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": "Pot Upgrade",
+                                "minecraft:rarity": "rare",
+                                "minecraft:max_stack_size": 16,
+                                "minecraft:lore": [
+                                    "",
+                                    " §r§f§l⭐ §r§6Overgrown ",
+                                    "",
+                                    " §7The potted plant grows 3x as fast, ",
+                                    " §7if the pot is located in a §fsuitable ",
+                                    " §7for the plant §fbiome§7. ",
+                                    "",
+                                    " §8Right-click a §7Botanical Pot §8to apply. ",
+                                    "",
+                                    "§r§9Botanical Pots "
+                                ],
+                                "minecraft:item_model": "pots:upgrade/overgrown",
+                                "minecraft:custom_data": {
+                                    "identifier": "pots:upgrade/overgrown"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

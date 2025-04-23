@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bone_meal",
+                    "weight": 95
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "pots:definition/upgrade/shattered",
+                    "weight": 5
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "pots:upgrade"
+                }
+            ]
+        }
+    ],
+    "random_sequence": "pots:botanical_pot"
+}

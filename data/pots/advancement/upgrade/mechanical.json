@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": "Mechanical Pots",
+        "description": "§7Obtain a §fMechanical §7upgrade by breaking some §fdecorated pots §7in the §ftrial chambers§7.\n\n§8Drops only occasionally.",
+        "icon": {
+            "id": "minecraft:paper",
+            "count": 1,
+            "components": {
+                "minecraft:item_model": "pots:upgrade/mechanical"
+            }
+        }
+    },
+    "criteria": {
+        "condition": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:paper",
+                        "components": {
+                            "custom_data": {
+                                "identifier": "pots:upgrade/mechanical"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "pots:upgrade/root"
+}

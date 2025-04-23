@@ -1,17 +1,16 @@
 {
-    "type": "block",
+    "type": "minecraft:block",
     "pools": [
         {
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:cactus",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
-                                "type": "uniform",
                                 "min": 2,
                                 "max": 3
                             }
@@ -24,12 +23,12 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
-                    "name": "minecraft:dead_bush",
+                    "type": "minecraft:item",
+                    "name": "minecraft:cactus_flower",
                     "weight": 5
                 },
                 {
-                    "type": "empty",
+                    "type": "minecraft:empty",
                     "weight": 95
                 }
             ]

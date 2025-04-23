@@ -1,34 +1,31 @@
 {
-    "criteria": {
-        "condition": {
-            "trigger": "minecraft:default_block_use",
-            "conditions": {
-                "location": [
-                    {
-                        "condition": "location_check",
-                        "predicate": {
-                            "block": {
-                                "blocks": "minecraft:flower_pot"
-                            }
-                        }
-                    }
-                ],
-                "player": {
-                    "equipment": {
-                        "mainhand": {
-                            "items": "minecraft:sheaf_pottery_sherd",
-                            "components": {
-                                "custom_data": {
-                                    "upgrade": "rich_soil"
-                                }
-                            }
-                        }
-                    }
-                }
+    "display": {
+        "title": "The Rich Kid",
+        "description": "§7Obtain a §fRich Soil §7upgrade by §fmanually composting §7some plant matter.\n\n§8Only a 20% chance.",
+        "icon": {
+            "id": "minecraft:paper",
+            "count": 1,
+            "components": {
+                "minecraft:item_model": "pots:upgrade/rich_soil"
             }
         }
     },
-    "rewards": {
-        "function": "pots:trace/upgrade/rich_soil"
-    }
+    "criteria": {
+        "condition": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:paper",
+                        "components": {
+                            "custom_data": {
+                                "identifier": "pots:upgrade/rich_soil"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "pots:upgrade/root"
 }

@@ -1,11 +1,11 @@
 {
-    "type": "empty",
+    "type": "minecraft:empty",
     "pools": [
         {
             "rolls": 1,
             "entries": [
                 {
-                    "type": "empty"
+                    "type": "minecraft:empty"
                 }
             ]
         }

@@ -1,5 +1,5 @@
 {
-    "type": "block",
+    "type": "minecraft:block",
     "pools": [
         {
             "rolls": 1,
@@ -12,7 +12,7 @@
                             "name": "minecraft:charcoal",
                             "functions": [
                                 {
-                                    "function": "set_count",
+                                    "function": "minecraft:set_count",
                                     "count": {
                                         "min": 1,
                                         "max": 2
@@ -24,7 +24,7 @@
                                     "condition": "minecraft:entity_properties",
                                     "entity": "this",
                                     "predicate": {
-                                        "nbt": "{data: { upgrade: \"flaming\" }}"
+                                        "nbt": "{data: {upgrade: \"flaming\"}}"
                                     }
                                 }
                             ]
@@ -34,7 +34,7 @@
                             "name": "minecraft:spruce_wood",
                             "functions": [
                                 {
-                                    "function": "set_count",
+                                    "function": "minecraft:set_count",
                                     "count": {
                                         "min": 1,
                                         "max": 2
@@ -46,7 +46,7 @@
                                     "condition": "minecraft:entity_properties",
                                     "entity": "this",
                                     "predicate": {
-                                        "nbt": "{data: { upgrade: \"timber\" }}"
+                                        "nbt": "{data: {upgrade: \"timber\"}}"
                                     }
                                 }
                             ]
@@ -56,7 +56,7 @@
                             "name": "minecraft:spruce_log",
                             "functions": [
                                 {
-                                    "function": "set_count",
+                                    "function": "minecraft:set_count",
                                     "count": {
                                         "min": 1,
                                         "max": 2
@@ -65,6 +65,30 @@
                             ]
                         }
                     ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:spruce_leaves",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:empty",
+                    "weight": 3
                 }
             ]
         },
@@ -75,50 +99,20 @@
                     "type": "minecraft:alternatives",
                     "children": [
                         {
-                            "type": "minecraft:item",
-                            "name": "minecraft:spruce_leaves",
-                            "functions": [
-                                {
-                                    "function": "set_count",
-                                    "count": {
-                                        "min": 1,
-                                        "max": 2
-                                    }
-                                }
-                            ],
+                            "type": "minecraft:empty",
                             "conditions": [
                                 {
                                     "condition": "minecraft:entity_properties",
                                     "entity": "this",
                                     "predicate": {
-                                        "nbt": "{data: { upgrade: \"photosynthesis\" }}"
+                                        "nbt": "{data: {upgrade: \"mechanical\"}}"
                                     }
                                 }
                             ]
                         },
                         {
-                            "type": "minecraft:empty"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "minecraft:spruce_sapling",
-                    "weight": 49
-                },
-                {
-                    "type": "item",
-                    "name": "minecraft:spruce_sapling",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 2
+                            "type": "minecraft:item",
+                            "name": "minecraft:spruce_sapling"
                         }
                     ]
                 }
@@ -148,7 +142,7 @@
                                     "condition": "minecraft:entity_properties",
                                     "entity": "this",
                                     "predicate": {
-                                        "nbt": "{data: { upgrade: \"plentiful\" }}"
+                                        "nbt": "{data: {upgrade: \"bountiful\"}}"
                                     }
                                 }
                             ]

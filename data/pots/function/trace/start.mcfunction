@@ -1,1 +1,0 @@
-$execute anchored eyes positioned ^ ^ ^ run function pots:trace/trace { condition: "$(condition)", onHit: "$(onHit)" }
