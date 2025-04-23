@@ -24,6 +24,6 @@
         }
     },
     "rewards": {
-        "function": "pots:trace/create/start"
+        "function": "pots:core/create/start"
     }
 }
