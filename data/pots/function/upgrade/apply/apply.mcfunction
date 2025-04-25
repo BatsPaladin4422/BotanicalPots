@@ -18,8 +18,8 @@ $execute align xyz positioned ~.5 ~.5 ~.5 as @n[type=minecraft:item_display, tag
 
 # SFX
 execute align xyz positioned ~.5 ~.5 ~.5 run playsound minecraft:block.decorated_pot.break player @a ~ ~ ~
-$execute align xyz positioned ~.5 ~.5 ~.5 run particle \
-    minecraft:item{item: {id: "minecraft:paper", components: { "minecraft:item_model": "pots:upgrade/$(upgrade)" }}} \
+execute align xyz positioned ~.5 ~.5 ~.5 run particle \
+    minecraft:item{item: {id: "minecraft:paper", components: { "minecraft:item_model": "pots:upgrade/base" }}} \
     ~ ~ ~ 0.2 0.2 0.2 0 10 normal
 # Decrementing the item, since the upgrade was applied.
 item modify entity @s weapon.mainhand pots:decrement_player

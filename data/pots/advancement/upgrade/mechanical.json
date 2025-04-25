@@ -1,7 +1,7 @@
 {
     "display": {
         "title": "Mechanical Pots",
-        "description": "§7Obtain a §fMechanical §7upgrade by breaking some §fdecorated pots §7in the §ftrial chambers§7.\n\n§8Drops only occasionally.",
+        "description": "§7Obtain a §fMechanical §7upgrade by breaking some §fdecorated pots §7in the §ftrial chambers§7.\n\n§8Only a 12.5% chance.",
         "icon": {
             "id": "minecraft:paper",
             "count": 1,
