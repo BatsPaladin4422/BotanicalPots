@@ -17,6 +17,7 @@ execute if block ~ ~ ~ minecraft:potted_flowering_azalea_bush run return run fun
 execute if block ~ ~ ~ minecraft:potted_warped_fungus run return run function pots:particle/map { plant: "warped" }
 execute if block ~ ~ ~ minecraft:potted_crimson_fungus run return run function pots:particle/map { plant: "crimson" }
 
+execute if block ~ ~ ~ minecraft:potted_fern run return run function pots:particle/map { plant: "fern" }
 execute if block ~ ~ ~ minecraft:potted_bamboo run return run function pots:particle/map { plant: "bamboo" }
 execute if block ~ ~ ~ minecraft:potted_cactus run return run function pots:particle/map { plant: "cactus" }
 execute if block ~ ~ ~ minecraft:potted_red_mushroom run return run function pots:particle/map { plant: "red_mushroom" }

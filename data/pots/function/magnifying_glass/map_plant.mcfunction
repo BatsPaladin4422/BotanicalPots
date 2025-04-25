@@ -16,10 +16,12 @@ execute align xyz if block ~ ~ ~ minecraft:flowering_azalea run return run funct
 execute align xyz if block ~ ~ ~ minecraft:crimson_fungus run return run function pots:magnifying_glass/type/crimson
 execute align xyz if block ~ ~ ~ minecraft:warped_fungus run return run function pots:magnifying_glass/type/warped
 
+execute align xyz if block ~ ~ ~ minecraft:bamboo_sapling run return run function pots:magnifying_glass/type/bamboo
 execute align xyz if block ~ ~ ~ minecraft:bamboo run return run function pots:magnifying_glass/type/bamboo
 execute align xyz if block ~ ~ ~ minecraft:cactus run return run function pots:magnifying_glass/type/cactus
 execute align xyz if block ~ ~ ~ minecraft:red_mushroom run return run function pots:magnifying_glass/type/mushroom {mushroom: "red_mushroom"}
 execute align xyz if block ~ ~ ~ minecraft:brown_mushroom run return run function pots:magnifying_glass/type/mushroom {mushroom: "brown_mushroom"}
+execute align xyz if block ~ ~ ~ minecraft:fern run return run function pots:magnifying_glass/type/fern
 
 execute align xyz if block ~ ~ ~ minecraft:dandelion run return run function pots:magnifying_glass/type/flower { flower: "dandelion" }
 execute align xyz if block ~ ~ ~ minecraft:poppy run return run function pots:magnifying_glass/type/flower { flower: "poppy" }
