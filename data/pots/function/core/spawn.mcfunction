@@ -14,12 +14,13 @@ execute if block ~ ~ ~ minecraft:potted_azalea_bush align xyz run loot spawn ~.5
 execute if block ~ ~ ~ minecraft:potted_flowering_azalea_bush align xyz run loot spawn ~.5 ~.5 ~.5 loot pots:botanical_pot/flowering_azalea
 execute if block ~ ~ ~ minecraft:potted_crimson_fungus align xyz run loot spawn ~.5 ~.5 ~.5 loot pots:botanical_pot/crimson
 execute if block ~ ~ ~ minecraft:potted_warped_fungus align xyz run loot spawn ~.5 ~.5 ~.5 loot pots:botanical_pot/warped
-execute if block ~ ~ ~ minecraft:potted_bamboo align xyz run loot spawn ~.5 ~.5 ~.5 loot pots:botanical_pot/bamboo
 execute if block ~ ~ ~ minecraft:potted_mangrove_propagule align xyz run loot spawn ~.5 ~.5 ~.5 loot pots:botanical_pot/mangrove
 
+execute if block ~ ~ ~ minecraft:potted_bamboo align xyz run loot spawn ~.5 ~.5 ~.5 loot pots:botanical_pot/bamboo
 execute if block ~ ~ ~ minecraft:potted_cactus align xyz run loot spawn ~.5 ~.5 ~.5 loot pots:botanical_pot/cactus
 execute if block ~ ~ ~ minecraft:potted_red_mushroom align xyz run loot spawn ~.5 ~.5 ~.5 loot pots:botanical_pot/red_mushroom
 execute if block ~ ~ ~ minecraft:potted_brown_mushroom align xyz run loot spawn ~.5 ~.5 ~.5 loot pots:botanical_pot/brown_mushroom
+execute if block ~ ~ ~ minecraft:potted_fern align xyz run loot spawn ~.5 ~.5 ~.5 loot pots:botanical_pot/fern
 
 execute if block ~ ~ ~ minecraft:potted_dandelion align xyz run loot spawn ~.5 ~.5 ~.5 loot pots:botanical_pot/dandelion
 execute if block ~ ~ ~ minecraft:potted_poppy align xyz run loot spawn ~.5 ~.5 ~.5 loot pots:botanical_pot/poppy

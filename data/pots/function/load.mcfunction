@@ -21,6 +21,7 @@ data modify storage pots:particles entries set value { \
     cactus: { state: "minecraft:cactus" }, \
     red_mushroom: { state: "minecraft:red_mushroom_block" }, \
     brown_mushroom: { state: "minecraft:brown_mushroom_block" }, \
+    fern: { state: "minecraft:moss_block" }, \
     \
     dandelion: { state: "minecraft:yellow_wool" }, \
     poppy: { state: "minecraft:red_wool" }, \

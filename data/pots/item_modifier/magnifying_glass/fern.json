@@ -1,0 +1,31 @@
+[
+    {
+        "function": "minecraft:set_lore",
+        "entity": "this",
+        "mode": "replace_section",
+        "offset": 4,
+        "lore": [
+            "§7You've §frecently §7investigated §aFern§7:"
+        ]
+    },
+    {
+        "function": "minecraft:set_lore",
+        "entity": "this",
+        "mode": "replace_section",
+        "offset": 6,
+        "lore": [
+            [
+                {
+                    "text": "\u0004",
+                    "font": "pots:modifiers",
+                    "color": "white",
+                    "italic": false
+                },
+                {
+                    "text": "§b Pretentious",
+                    "font": "minecraft:default"
+                }
+            ]
+        ]
+    }
+]

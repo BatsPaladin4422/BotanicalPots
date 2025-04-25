@@ -20,7 +20,7 @@ $execute if items block ~ ~1 ~ container.$(slot) minecraft:flowering_azalea run 
 $execute if items block ~ ~1 ~ container.$(slot) minecraft:mangrove_propagule run setblock ~ ~ ~ minecraft:potted_mangrove_propagule
 
 $execute if items block ~ ~1 ~ container.$(slot) minecraft:bamboo run setblock ~ ~ ~ minecraft:potted_bamboo
-
+$execute if items block ~ ~1 ~ container.$(slot) minecraft:fern run setblock ~ ~ ~ minecraft:potted_fern
 $execute if items block ~ ~1 ~ container.$(slot) minecraft:crimson_fungus run setblock ~ ~ ~ minecraft:potted_crimson_fungus
 $execute if items block ~ ~1 ~ container.$(slot) minecraft:warped_fungus run setblock ~ ~ ~ minecraft:potted_warped_fungus
 
