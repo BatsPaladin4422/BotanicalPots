@@ -24,5 +24,8 @@
                 }
             }
         }
+    },
+    "rewards": {
+        "function": "pots:upgrade/remove/start"
     }
 }
