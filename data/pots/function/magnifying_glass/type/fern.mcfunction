@@ -1,6 +1,6 @@
 title @s actionbar [ \
     { text: "\u0004", font: "pots:modifiers" }, \
-    { text: "§b Pretentious", font: "minecraft:default" } \
+    { text: "§a Pretentious", font: "minecraft:default" } \
 ]
 function pots:particle/map { plant: "fern" }
 execute if items entity @s weapon.mainhand minecraft:paper[custom_data={ identifier: "pots:magnifying_glass" }] \
