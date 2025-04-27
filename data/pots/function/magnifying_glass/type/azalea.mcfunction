@@ -7,6 +7,7 @@ title @s actionbar [ \
     { text: "§f Spore Blossom", font: "minecraft:default" } \
 ]
 function pots:particle/map { plant: "azalea" }
+advancement grant @s only pots:thesis azalea
 execute if items entity @s weapon.mainhand minecraft:paper[custom_data={ identifier: "pots:magnifying_glass" }] \
     run return run item modify entity @s weapon.mainhand pots:magnifying_glass/azalea
 item modify entity @s weapon.offhand pots:magnifying_glass/azalea

@@ -5,6 +5,7 @@ title @s actionbar [ \
     { text: "§f Vine", font: "minecraft:default" } \
 ]
 function pots:particle/map { plant: "bamboo" }
+advancement grant @s only pots:thesis bamboo
 execute if items entity @s weapon.mainhand minecraft:paper[custom_data={ identifier: "pots:magnifying_glass" }] \
     run return run item modify entity @s weapon.mainhand pots:magnifying_glass/bamboo
 item modify entity @s weapon.offhand pots:magnifying_glass/bamboo

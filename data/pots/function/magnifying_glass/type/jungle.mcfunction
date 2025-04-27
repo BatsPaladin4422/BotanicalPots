@@ -7,6 +7,7 @@ title @s actionbar [ \
     { text: "§f Cocoa Beans", font: "minecraft:default" } \
 ]
 function pots:particle/map { plant: "jungle" }
+advancement grant @s only pots:thesis jungle
 execute if items entity @s weapon.mainhand minecraft:paper[custom_data={ identifier: "pots:magnifying_glass" }] \
     run return run item modify entity @s weapon.mainhand pots:magnifying_glass/jungle
 item modify entity @s weapon.offhand pots:magnifying_glass/jungle

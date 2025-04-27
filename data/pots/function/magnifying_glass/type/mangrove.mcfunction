@@ -7,6 +7,7 @@ title @s actionbar [ \
     { text: "§f Lily Pad", font: "minecraft:default" } \
 ]
 function pots:particle/map { plant: "mangrove" }
+advancement grant @s only pots:thesis mangrove
 execute if items entity @s weapon.mainhand minecraft:paper[custom_data={ identifier: "pots:magnifying_glass" }] \
     run return run item modify entity @s weapon.mainhand pots:magnifying_glass/mangrove
 item modify entity @s weapon.offhand pots:magnifying_glass/mangrove

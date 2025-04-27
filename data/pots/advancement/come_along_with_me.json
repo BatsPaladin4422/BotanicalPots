@@ -45,44 +45,6 @@
             "trigger": "minecraft:impossible"
         }
     },
-    "requirements": [
-        [
-            "acacia"
-        ],
-        [
-            "azalea"
-        ],
-        [
-            "birch"
-        ],
-        [
-            "cherry"
-        ],
-        [
-            "crimson"
-        ],
-        [
-            "dark_oak"
-        ],
-        [
-            "jungle"
-        ],
-        [
-            "mangrove"
-        ],
-        [
-            "oak"
-        ],
-        [
-            "spruce"
-        ],
-        [
-            "warped"
-        ],
-        [
-            "pale_oak"
-        ]
-    ],
     "rewards": {
         "experience": 200
     },
