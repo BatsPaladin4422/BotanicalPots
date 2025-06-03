@@ -8,6 +8,7 @@ scoreboard players reset @a[tag=!IsUsingGlass, scores={use=1..}] use
 tag @a[tag=IsUsingGlass, scores={use=1..}] remove IsUsingGlass
 
 execute as @e[type=minecraft:villager, nbt={VillagerData: {level: 2, profession: "minecraft:mason"}}, tag=!Processed] run function pots:upgrade/bountiful
+execute as @e[type=minecraft:wandering_trader, tag=!Processed] run function pots:wandering_trader/process
 execute unless entity @e[tag=BotanicalPot, type=minecraft:marker] run return 0
 execute as @e[tag=BotanicalPot, type=marker] at @s unless block ~ ~ ~ #flower_pots run loot spawn ~ ~ ~ loot pots:botanical_pot
 execute as @e[tag=BotanicalPot, type=marker] at @s unless block ~ ~ ~ #flower_pots run kill @e[distance=..0.866, tag=BotanicalPotDeco]
