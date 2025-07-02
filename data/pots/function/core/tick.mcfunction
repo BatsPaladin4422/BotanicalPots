@@ -53,7 +53,7 @@ execute if entity @s[nbt={data: {upgrade: "overgrown"}}] if block ~ ~ ~ minecraf
 
 # Flowstate + Rooted-Down
 execute if score @s growTime matches ..40 run advancement grant @a[distance=..3.5] only pots:flowstate
-execute if score @s growTime matches 72000.. run advancement grant @a[distance=..3.5] only pots:rooted
+execute if score @s growTime matches 24000.. run advancement grant @a[distance=..3.5] only pots:rooted
 scoreboard players reset @s growTime
 
 # Dropping the result

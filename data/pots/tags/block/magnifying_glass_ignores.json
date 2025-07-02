@@ -1,6 +1,7 @@
 {
     "values": [
         "#minecraft:air",
+        "minecraft:water",
         "minecraft:short_grass",
         "minecraft:tall_grass",
         "minecraft:seagrass",

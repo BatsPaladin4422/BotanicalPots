@@ -1,9 +1,9 @@
-# Prepend
+# Modify Trade
 #
-# Prepends the provided $(upgrade) as this wandering trader's third
-# trade offer. Up to $(amount) upgrades is sold for $(price) emeralds each.
+# Modifies this trader's offers to sell the provided $(upgrade) as its $(slot)th offer.
+# Up to $(amount) upgrades is sold for $(price) emeralds each.
 
-$data modify entity @s Offers.Recipes[2] set value { \
+$data modify entity @s Offers.Recipes[$(slot)] set value { \
     buy: { \
         id: "minecraft:emerald", \
         count: $(price) \
@@ -16,6 +16,6 @@ $data modify entity @s Offers.Recipes[2] set value { \
     priceMultiplier: 0.05 \
 }
 $execute positioned 0.0 -256 0.0 run loot spawn ~ ~ ~ loot pots:definition/upgrade/$(upgrade)
-execute positioned 0.0 -256 0.0 run data modify entity @s Offers.Recipes[2].sell.components set from \
+$execute positioned 0.0 -256 0.0 run data modify entity @s Offers.Recipes[$(slot)].sell.components set from \
     entity @n[type=minecraft:item] Item.components
 execute positioned 0.0 -256 0.0 run kill @n[type=minecraft:item]
