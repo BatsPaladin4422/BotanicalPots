@@ -34,7 +34,8 @@ data modify storage pots:particles entries set value { \
     pink_tulip: { state: "minecraft:cherry_planks" }, \
     oxeye_daisy: { state: "minecraft:yellow_wool" }, \
     cornflower: { state: "minecraft:blue_wool" }, \
-    lily_of_the_valley: { state: "minecraft:white_wool" } \
+    lily_of_the_valley: { state: "minecraft:white_wool" }, \
+    wither_rose: { state: "minecraft:soul_soil" } \
 }
 
 kill @e[tag=BotanicalPotUpgrade]

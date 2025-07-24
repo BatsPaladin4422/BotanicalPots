@@ -93,6 +93,19 @@
                             }
                         }
                     ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "pots:definition/upgrade/ancient",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{data: {upgrade: \"ancient\"}}"
+                            }
+                        }
+                    ]
                 }
             ]
         }

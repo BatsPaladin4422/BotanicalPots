@@ -41,4 +41,6 @@ $execute if items block ~ ~1 ~ container.$(slot) minecraft:oxeye_daisy run setbl
 $execute if items block ~ ~1 ~ container.$(slot) minecraft:cornflower run setblock ~ ~ ~ minecraft:potted_cornflower
 $execute if items block ~ ~1 ~ container.$(slot) minecraft:lily_of_the_valley run setblock ~ ~ ~ minecraft:potted_lily_of_the_valley
 
+$execute if items block ~ ~1 ~ container.$(slot) minecraft:wither_rose run setblock ~ ~ ~ minecraft:potted_wither_rose
+
 $item modify block ~ ~1 ~ container.$(slot) pots:decrement

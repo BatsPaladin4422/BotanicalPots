@@ -35,3 +35,4 @@ execute if block ~ ~ ~ minecraft:potted_pink_tulip run return run function pots:
 execute if block ~ ~ ~ minecraft:potted_oxeye_daisy run return run function pots:particle/map { plant: "oxeye_daisy" }
 execute if block ~ ~ ~ minecraft:potted_cornflower run return run function pots:particle/map { plant: "cornflower" }
 execute if block ~ ~ ~ minecraft:potted_lily_of_the_valley run return run function pots:particle/map { plant: "lily_of_the_valley" }
+execute if block ~ ~ ~ minecraft:potted_wither_rose run return run function pots:particle/map { plant: "wither_rose" }

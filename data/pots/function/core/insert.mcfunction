@@ -37,4 +37,6 @@ execute if block ~ ~ ~ minecraft:potted_oxeye_daisy run return run loot insert ~
 execute if block ~ ~ ~ minecraft:potted_cornflower run return run loot insert ~ ~-1 ~ loot pots:botanical_pot/cornflower
 execute if block ~ ~ ~ minecraft:potted_lily_of_the_valley run return run loot insert ~ ~-1 ~ loot pots:botanical_pot/lily_of_the_valley
 
+execute if block ~ ~ ~ minecraft:potted_wither_rose run return run loot insert ~ ~-1 ~ loot pots:botanical_pot/wither_rose
+
 return 0
